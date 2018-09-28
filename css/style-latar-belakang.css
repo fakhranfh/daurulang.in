@@ -1,0 +1,201 @@
+body{
+    background-color: #f2f2f2;
+}
+
+[class*='col-']{
+    transform: translateY(0px);
+}
+
+.background{
+    min-height: 50vh;
+}
+
+.background:hover{
+    cursor: pointer;
+}
+
+.style-indonesia{
+    margin-bottom: 20px;
+}
+
+#background-sampah-di-indonesia{
+    margin-top: 60px;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../img/latar-belakang-sampah.jpg);
+    background-size: cover;
+    background-position: 0% 80%;
+}
+
+#background-sampah-di-indonesia.hover:hover{
+    background: linear-gradient( rgba(0, 50, 0, 0.75), rgba(0, 50, 0, 0.75) ), url(../img/latar-belakang-sampah.jpg);
+    background-size: cover;
+    background-position: 0% 80%;
+}
+
+#background-apa-itu-daurulangin{
+    background-color: #4CAF50;
+    min-height: 40.41533546325879vh;
+}
+
+section#apa-itu-daurulangin.hover:hover{
+    background: linear-gradient( rgba(0, 50, 0, 0.75), rgba(0, 50, 0, 0.75) ), url(../favicon.png);
+    background-size: cover;
+    height: 40.41533546325879vh;
+}
+
+section#apa-itu-daurulangin{
+    max-width: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75) ), url(../favicon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+section{
+    line-height: 40.41533546325879vh;
+}
+
+section span{
+    line-height: normal;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+section span.isi{
+    display: none;
+}
+
+section h1{
+    font-size: 36pt;
+    letter-spacing: 3px;
+}
+
+section span.isi > h1{
+    letter-spacing: normal;
+    font-size: 30pt;
+    margin: 20px 0;
+}
+
+#img-indonesia, #img-sampah, .img-kota{
+    height: 150px;
+    margin: 20px auto;
+    display: block;
+}
+
+.img-kota{
+    margin: 10px auto;
+}
+
+.margin-kota{
+    margin-bottom: 40px;
+}
+
+.style-indonesia h1, .style-indonesia h2{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.style-indonesia h1{
+    font-size: 70pt !important;
+    line-height: 1em;
+}
+
+.style-indonesia h2{
+    font-weight: normal;
+}
+
+.isi .col-8 h2{
+    font-size: 14pt;
+    font-weight: normal;
+}
+
+.isi .col-8 b{
+    font-size: 30pt;
+}
+
+div > h1{
+    letter-spacing: normal;
+    font-size: 24pt;
+    margin-bottom: 20px;
+}
+
+p{
+    font-size: 14pt;
+}
+
+#deskripsi{
+    padding: 0 90px;
+}
+
+#deskripsi p{
+    line-height: 25px;
+    margin-bottom: 40px;
+}
+
+iframe{
+    border: none;
+    width: 50%;
+    height: 50vh;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+    .col-12-lg{
+        margin: 20px 0;
+        transform: translateX(-10px);
+    }
+    #diperkirakan{
+        margin-top: 20px;
+        transform: translateX(-90px);
+    }
+
+    #sampah-di-indonesia .isi:last-of-type .style-indonesia.col-4{
+        width: 50%;
+    }
+
+    .isi .col-8 b{
+        font-size: 20pt;
+    }
+    iframe{
+        width: 80%;
+    }
+}
+
+@media (max-width: 576px) {
+    #sampah-di-indonesia .isi:last-of-type .style-indonesia.col-4{
+        width: 100%;
+    }
+
+    .isi .col-8 b{
+        font-size: 16pt;
+    }
+
+    #memproduksi{
+        padding: 20px;
+    }
+
+    #daridata{
+        transform: translateX(5px);
+    }
+
+    iframe{
+        height: 30vh;
+    }
+
+    .img-des{
+        transform: translateX(-15px);
+    }
+}
+
+@media (max-width: 485px) {
+    section h1{
+        font-size: 30pt;
+    }
+
+    #deskripsi{
+        padding: 0 50px;
+        transform: translateX(-5px);
+    }
+
+    #apa-itu-daurulangin .img-kota{
+        transform: translateX(5px);
+    }
+}

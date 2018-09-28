@@ -1,0 +1,50 @@
+body{
+    background-color: #f2f2f2;
+}
+
+#background-galeri-inspiratif{
+    margin-top: 60px;
+    background-color: #f2f2f2;
+}
+
+section#galeri-inspiratif span{
+    color: #3b8b26;
+}
+
+section#galeri-inspiratif > span > h2{
+    font-weight: normal;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    color: #3b8b26;
+    background-color: #3b8b26;
+}
+
+section#galeri-inspiratif img{
+    width: auto;
+    height: 250px;
+    margin: 20px;
+}
+
+section#galeri-inspiratif .col-8 section{
+    text-align: center;
+    line-height: 300px;
+}
+
+section#galeri-inspiratif span{
+    line-height: normal;
+}
+
+@media (max-width: 768px) {
+    section#galeri-inspiratif .col-8 section{
+        line-height: normal;
+    }
+}
+
+@media (max-width: 485px){
+    section#galeri-inspiratif span section span h1{
+        font-size: 10pt;
+    }
+}
